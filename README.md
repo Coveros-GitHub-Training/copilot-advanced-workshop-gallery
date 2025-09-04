@@ -49,8 +49,8 @@ Once ready, you can access the application at the forwarded port URL provided in
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/vfm2-testing-co/gallery-repo.git
-   cd gallery-repo
+   git clone https://github.com/Coveros-GitHub-Training/copilot-advanced-workshop-gallery.git
+   cd copilot-advanced-workshop-gallery
    ```
 2. Install dependencies:
    ```bash
