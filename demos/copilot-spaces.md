@@ -56,7 +56,7 @@ src/app/layout.tsx
 next.config.ts
 ```
 9. Select `Add sources` and select `Link files, pull requests, and issues`
-10. Add issue link `https://github.com/Coveros-GitHub-Training/copilot-advanced-workshop-gallery/issues/3` and press `save`
+10. Add issue link `https://github.com/ps-copilot-sandbox/copilot-intermediate-gallery-repo/issues/3` and press `save`
 11. Select `Add sources` and select `Add text content`
 12. Add the following content and press `save`
 ```markdown
@@ -125,7 +125,7 @@ src/app/page.tsx
 package.json
 ```
 9. Select `Add sources` and select `Link files, pull requests, and issues`
-10. Add issue link `https://github.com/Coveros-GitHub-Training/copilot-advanced-workshop-gallery/issues/4` and press `save`
+10. Add issue link `https://github.com/ps-copilot-sandbox/copilot-intermediate-gallery-repo/issues/4` and press `save`
 11. Select `Add sources` and select `Add text content`
 12. Add the following content and press `save`
 ```markdown
