@@ -49,7 +49,28 @@ export default function RootLayout({
           </div>
         </header>
         {children}
-        {/* REPLACE THIS COMMENT */}
+       {/* Create a footer for this section. It should contain the logo and copyright information. */}
+        <footer className="border-t bg-white/50 dark:bg-slate-900/50 backdrop-blur-sm mt-8">
+          <div className="container mx-auto px-4 py-4 flex flex-col md:flex-row items-center justify-between">
+            <div className="flex items-center gap-2 mb-4 md:mb-0">
+              <Camera className="h-6 w-6 text-blue-600" />
+              <span className="text-sm text-slate-600 dark:text-slate-400">
+                &copy; {new Date().getFullYear()} Portfolio Gallery. All rights reserved.
+              </span>
+            </div>
+            <nav className="flex items-center gap-6">
+              <Link href="/gallery" className="nav-link">
+                Gallery
+              </Link>
+              <Link href="/upload" className="nav-link">
+                Upload
+              </Link>
+              <Link href="/admin" className="btn-primary">
+                Admin
+              </Link>
+            </nav>
+          </div>
+        </footer>
       </body>
     </html>
   );
