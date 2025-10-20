@@ -139,20 +139,24 @@ Model Context Protocol (MCP) servers allow you to extend GitHub Copilot capabili
 
 Custom instructions let you shape GitHub Copilot’s behavior to match your team’s coding style, best practices, and project conventions. With custom instructions, Copilot can automatically follow your preferred patterns, use your naming conventions, and even adapt to your workflow. Let's see what this repos custom instructions are:
 
-1. Go to `.github/custom-instructions.md`
+1. Go to `.github/copilot-instructions.md`
 2. Look over the file. Have you noticed coding suggestions have been based around this file?
 
 Now let's generate one with the help of GitHub Copilot.
 
 1. Go to Copilot Chat
 2. Select the gear icon on the top right
-3. Click "Generate Instructions"
+3. Click "Generate Agent Instructions"
+4. Wait while Copilot makes updates to `.github/copilot-instructions.md`
 
 Look over this file and notice how its a good starting point for this project. You can remove or add any instructions your team has in mind!
 
 Custom instructions works in tandem with MCP to help you guide the agent.
 
 ### Part Two: MCP Authentication
+
+> [!Note]
+> While it is possible to automatically configure MCP servers through [The GitHub MCP Registry](https://github.com/mcp), this section will focus on manual configuration as it is still required for internal MCP servers your company may use as well as MCP servers not supported by GitHub yet.
 
 1. Go to `.vscode/mcp.json` and look over the configuration file. There are two options to choose from depending on your preference and version. For OAuth, refer to `Option A` below. For PAT instructions, refer to `Option B`
 
@@ -180,7 +184,7 @@ Now that you have authenticated via OAuth or PAT, let's confirm the tools.
 1. Since you are already in agent mode in VSCode, type the following prompt in chat to create an issue with MCP server
 
 ```markdown
-create an issue for this repo for a feature request to toggle between dark mode and light mode
+Create an issue for this repo for a feature request to toggle between dark mode and light mode
 ```
 
 2. Look over the response. Once confirmed, press "continue"
