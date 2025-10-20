@@ -46,7 +46,7 @@ Prompt
 ### 2.1 Get Project Overview
 **Prompt:**
 ```markdown
-@workspace Give me a summary of the project and give an overview of the most impactful files. 
+Give me a summary of the project and give an overview of the most impactful files. 
 ```
 
 **Follow-up Action:**
@@ -54,6 +54,9 @@ Prompt
 - Highlight the first section
 
 ### 2.2 Explain Selected Code
+- Selected any code file in the `src` directory and open it. (As an example [`src/components/gallery/GalleryGrid.tsx`](src/components/gallery/GalleryGrid.tsx)
+- Highlight a section of code that you would like to learn more about. (You could use lines 30-43 from the example file)
+  
 **Prompt:**
 ```markdown
 @workspace /explain 
@@ -90,8 +93,8 @@ Tell me about the improvements that can be made in this repo.
 If you have premium access:
 
 1. **Select generated code:** Highlight the footer code that was created
-2. **Open Copilot menu:** Right-click → Select "Copilot"
-3. **Get review:** Choose "Review and Comment"
+2. **Open Generate Code menu:** Right-click → Select "Generate Code"
+3. **Get review:** Choose "Review"
 4. **Process feedback:** Review suggestions and accept/discard as needed
 
 ### Option B: Manual Review (Free Alternative)
