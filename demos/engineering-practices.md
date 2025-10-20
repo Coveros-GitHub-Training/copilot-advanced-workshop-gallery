@@ -24,10 +24,9 @@ GitHub Copilot has many features designed to help engineering teams understand A
 2. Type "Copilot Chat Debug"
 3. Select **"Copilot Chat Debug: Focus on Copilot Chat Debug View"**
 
-#### Method 2: Using the Menu
-1. Go to **View** → **Command Palette**
-2. Type "Copilot Chat Debug"
-3. Select **"Copilot Chat Debug: Focus on Copilot Chat Debug View"**
+#### Method 2: Through the Copilot Chat window
+1. At the top of the Copilot Chat window click the 3 ellipses `...`
+2. Click `Show Chat Debug View`
 
 #### What You'll See
 Once the debug panel opens, you can explore:
@@ -78,24 +77,20 @@ Once the debug panel opens, you can explore:
 
 GitHub.com provides additional tools for managing Copilot at the organizational level and sharing knowledge across teams.
 
-### 🎛️ Step 3: Explore System Prompts
+### 🎛️ Step 3: Explore Personal Instructions
 
-**Why this matters:** System prompts define how Copilot behaves across your organization. Understanding these helps ensure consistent, high-quality code generation that follows your team's standards.
+**Why this matters:** Personal instructions define how Copilot behaves across all the repositories that you work on. Understanding these helps ensure consistent, high-quality code generation that follows your team's standards.
 
-#### System Prompts and Personal Instructions
+#### Personal Instructions
 1. **Navigate to GitHub Copilot:** Go to [https://github.com/copilot](https://github.com/copilot)
-2. **Access settings:** Click the **[...]** menu button in the top-right corner
-3. **Open system prompts:** Select **"System prompt"**
-4. **Exit out:** of the system prompt
-5. **Open settings again:** Click the **[...]** menu button in the top-right corner
-6. **Open personal instructions:** Select **"Personal instructions"**
+2. **Open settings:** Click **Your profile icon** in the bottom left of the screen
+3. **Open personal instructions:** Select **"Personal instructions"**
+4. Add a personal instruction that you would like to test out for this class.
 
-#### What to Explore
-- **Available Prompts:** Browse the library of pre-built system prompts
-- **Personal instructions:** Are there any preferences you'd like in the instructions? Test it out!
+**Help creating personal instructions**: If you're stuck click the lightbulb icon in the bottom right of the textbox to insert a pre-built instruction
 
 **🔍 Things to Look For:**
-- How do system prompts influence code style?
+- How do personal instructions influence code style?
 - What coding standards are enforced?
 - How do prompts vary by programming language?
 
@@ -107,7 +102,7 @@ GitHub.com provides additional tools for managing Copilot at the organizational 
 
 #### Shared Conversation Instructions
 1. **Navigate to GitHub Copilot:** Go to [https://github.com/copilot](https://github.com/copilot)
-2. **Access sharing options:** Click the **[...]** menu button in the top-right corner
+2. **Open settings:** Click **Your profile icon** in the bottom left of the screen
 3. **Open conversation management:** Select **"Manage shared conversations"**
 
 #### What to Explore with Shared Conversations
