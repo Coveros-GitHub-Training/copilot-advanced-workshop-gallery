@@ -17,7 +17,7 @@ By the end of this demo, you will:
 **Goal:** Set up a dedicated Copilot Space for working on gallery features.
 
 ### Setup
-1. Go to `https://github.com/copilot/spaces`
+1. Go to [https://github.com/copilot/spaces](https://github.com/copilot/spaces)
 2. Select `Create Space`
 
 ### Group A Option: Security Analysis & Hardening
