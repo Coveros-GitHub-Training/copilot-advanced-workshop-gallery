@@ -54,7 +54,7 @@ Give me a summary of the project and give an overview of the most impactful file
 - Highlight the first section
 
 ### 2.2 Explain Selected Code
-- Selected any code file in the `src` directory and open it. (As an example [`src/components/gallery/GalleryGrid.tsx`](src/components/gallery/GalleryGrid.tsx)
+- Selected any code file in the `src` directory and open it. (As an example [`src/components/gallery/GalleryGrid.tsx`](../src/components/gallery/GalleryGrid.tsx)
 - Highlight a section of code that you would like to learn more about. (You could use lines 30-43 from the example file)
   
 **Prompt:**
@@ -75,7 +75,7 @@ Tell me about the improvements that can be made in this repo.
 ## 💻 Step 3: Generate Code with Copilot code completions
 
 ### Code Completions Instructions
-1. **Navigate to file:** Open [`src/app/layout.tsx`](src/app/layout.tsx)
+1. **Navigate to file:** Open [`src/app/layout.tsx`](../src/app/layout.tsx)
 2. **Find location:** Go to line 52 `{/* REPLACE THIS COMMENT */}`
 3. **Remove line 52 comment:** and replace it with the following comment:
 
